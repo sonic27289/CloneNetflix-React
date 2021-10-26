@@ -20,7 +20,7 @@ export default () => {
 
         // Selecionando randomicamente o Filme Principal que vai aparecer em destaque na página inicial
         let originaisNetflix = lista.filter(i=>i.slug === 'originals');
-        let filmesOriginaisNetflix = originaisNetflix[0].filmes.results.filter(i=>i.vote_average > 6);
+        let filmesOriginaisNetflix = originaisNetflix[0].filmes.results.filter(i=>i.vote_average > 7);
         let filmeAleatorio = Math.floor(Math.random() * (filmesOriginaisNetflix.length - 1));
         let filmeEscolhido = filmesOriginaisNetflix[filmeAleatorio];
         let informacaoFilmeEscolhido = await Tmdb.getInformacaoDoFilme(filmeEscolhido.id, 'serie');
