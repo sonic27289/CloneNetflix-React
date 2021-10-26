@@ -29,6 +29,7 @@
  - Listagem: Apresentar botões de controle para manipular a visualização dos filmes da página inicial.
  - Efeito login: Manipulando o background da página conforme você esta logado ou não.
  - Botão Inválido: Manipulando o botão deixando ele clicável ou não, conforme as exigências.
+ - Sempre logado: Foi usado armazenamento local para sempre deixar sua conta logada quando você loga no site, assim como se é utilizado no site original.
  
 Como usar:
 
