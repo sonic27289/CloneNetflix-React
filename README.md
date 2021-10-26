@@ -1,70 +1,19 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para esse projeto eu utilizei as linguagens de programação HTML, CSS e JavaScript, utilizando o framework React.js pela primeira vez, a IDE que eu frequentemente uso é o VS Code, o site escolhido para ser clonado foi a Netflix, um site de filmes e séries, logo foi utilizada a API pública do site www.themoviedb.org, um site utilizado mundialmente para se comentar e pontuar séries e filmes. 
+  Também tentei utilizar pela primeira vez o sistema operacional Linux Ubuntu, utilizando de um USB para o uso temporário do sistema, usando como referência o site: <https://www.fosslinux.com/10212/how-to-install-a-complete-ubuntu-on-a-usb-flash-drive.htm>
+  Com o decorrer do projeto eu fui aprendendo e utilizando as ferramentas do React, com a ajuda de uma vídeo-aula, stackoverflow e do Github. O intuito do projeto é fazer a página inicial igual a página do filme original da Netflix: 
+ 
+  Trabalhei em cada camada separadamente, e tentava completa-la sem problemas ou bugs nenhum antes de partir para outra, separando o código em diversos componentes. 
+  Também quis fazer a página de Log-in do Netflix, para fazer o formulário e a segunda página do projeto, tentei fazer uso de outras ferramentas do React.js e instalei alguns diretórios. 
+  Tentei usar algumas outras ferramentas que nunca tinha usado pela primeira vez, mas acabei não conseguindo utiliza-las, por exemplo o * ROUTES do React para navegar pela página de Log-in e a página inicial e o FireBase do Google para o context.
+  No entanto, coloquei no projeto ferramentas diferentes ao longo da aplicação, por exemplo o react-router-dom, normalize.css, styled-components e a instalação do material-ui/core e icons. Para as duas páginas necessárias para o projeto foram escolhidas a página de Log-in e a página inicial de filmes da Netflix, o formulário que foi feito não foi feita nenhuma restrição de dados, nem a criação de conta necessária para você entrar no site.
+  Sendo a primeira vez utilizando o React.js, tentei utilizar de ferramentas distintas umas das outras, porém deixando o código fácil e simples de se compreender. 
+  Algumas funcionalidades do projeto são:
+ Spinning Loading: Efeito ao trazer dados de uma API.
+ Filme Principal: Selecionar uma Série de forma aleatória e apresentá-la na página inicial em destaque.
+ Lista separadas em Gêneros e Tipos diferentes: Ao consumir a API separar os filmes em sessões.
+ Efeito Menu: Criar um efeito no background do menu conforme o scroll da tela do usuário.
+ Listagem: Apresentar botões de controle para manipular a visualização dos filmes da página inicial.
+Como usar:
+  Para usar a aplicação, você precisa ter instalado o Node.js em seu computador, e através do React.js você conseguirá acessar o site, abrindo o projeto em sua IDE com o terminal integrado, ou pelo Node.js com o diretório do projeto utilizando o comando “npm start”.
+Digitando esse comando, a aplicação vai rodar em modo de desenvolvimento.
+Abrindo [http://localhost:3000](http://localhost:3000) para que possa ser visualizada no browser.
