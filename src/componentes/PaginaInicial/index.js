@@ -5,7 +5,7 @@ import './PaginaInicial.css';
 import FilmePrincipal from '../FilmePrincipal';
 import TopoPagina from '../TopoPagina';
 
-export default () => {
+export default function PaginaInicial () {
 
     const [listaFilmes, setListaFilmes] = useState([]);
     const [dadosFilmePrincipal, setDadosFilmePrincipal] = useState(null);

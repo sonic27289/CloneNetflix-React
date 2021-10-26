@@ -20,7 +20,7 @@ const API_base = 'https://api.themoviedb.org/3';
     return json;
 }
 
-export default {
+const Tmdb = {
     getHomeList: async () => {
         return [
             {
@@ -86,3 +86,5 @@ export default {
         return informacao;
     }
 }
+
+export default Tmdb;

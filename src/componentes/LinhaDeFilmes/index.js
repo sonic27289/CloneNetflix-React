@@ -5,7 +5,7 @@ import './LinhaDeFilmes.css';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
-export default ({titulo, filmes}) => {
+export default function LinhaDeFilmes ({titulo, filmes}) {
     
     const [scrollX, setScrollX] = useState(0);
     const cliqueSetaEsquerda = () => {

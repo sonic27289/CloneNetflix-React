@@ -6,7 +6,7 @@ import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import ThumbDownIcon from '@material-ui/icons/ThumbDown';
 import AddIcon from '@material-ui/icons/Add';
 
-export default ({filme}) => {
+export default function FilmePrincipal({filme}) {
     
     let primeiraData = new Date(filme.first_air_date);
     let generos = [];

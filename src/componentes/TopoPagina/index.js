@@ -1,7 +1,7 @@
 import React from "react";
 import './TopoPagina.css';
 
-export default ({topoPreto, estaLogado}) => {
+export default function TopoPagina ({topoPreto, estaLogado}) {
     return (
         // Aqui vai ver se o header.topoPreto no CSS vai ser utilizado ou não
         <header className={topoPreto ? 'topoPreto' : ''}>
@@ -12,7 +12,7 @@ export default ({topoPreto, estaLogado}) => {
                 </a>
             </div> 
             {estaLogado && (<div className="topoPagina--usuario">
-                <a href="" onClick={() => localStorage.removeItem("logado")}>
+                <a href="/" nonClick={() => localStorage.removeItem("logado")}>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Usuário"/>
                     <div className="topoPagina--background"></div>
                 </a>
