@@ -6,9 +6,6 @@ import PaginaLogin from './componentes/PaginaLogin';
 export default function SignIn() {
 
   const [estaLogado, setEstaLogado] = useState(false);
-  const [enderecoDeEmail, setEnderecoDeEmail] = useState('');
-  const [senha, setSenha] = useState('');
-  const estaInvalido = senha === '' || enderecoDeEmail === '';
 
   function login(){
     localStorage.setItem("logado", true)
