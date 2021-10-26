@@ -1,0 +1,109 @@
+.filmePrincipal {
+    height: 100vh;
+}
+.filmePrincipal--transparenciaVertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+.filmePrincipal--transparenciaHorizontal {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 25%, transparent 75%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 105px;
+    padding-top: 70px;
+}
+.filmePrincipal--nome {
+    font-weight: bold;
+    font-size: 58px;
+}
+.filmePrincipal--informacao {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.filmePrincipal--relevancia {
+    color: #46d369;  
+}
+.filmePrincipal--relevancia, 
+.filmePrincipal--anoDeEstreia, 
+.filmePrincipal--temporadas {
+    margin-right: 15px;
+    display: inline-block;
+}
+.filmePrincipal--sinopse {
+    color: #999;
+    margin-top: 15px;
+    font-size: 20px;
+    max-width: 35%;
+}
+.filmePrincipal--botoes {
+    margin-top: 15px;
+}
+.filmePrincipal--botaoAssistir,
+.filmePrincipal--botaoLista,
+.filmePrincipal--botaoGostei,
+.filmePrincipal--botaoNaoGostei {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 11px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+.filmePrincipal--botaoAssistir:hover,
+.filmePrincipal--botaoLista:hover,
+.filmePrincipal--botaoGostei:hover,
+.filmePrincipal--botaoNaoGostei:hover {
+    opacity: 0.7;
+}
+.filmePrincipal--botaoAssistir {
+    color: #000;
+    background-color: #FFF;
+}
+.filmePrincipal--botaoLista,
+.filmePrincipal--botaoGostei,
+.filmePrincipal--botaoNaoGostei {
+    color: #FFF;
+    background-color: #333;
+}
+.filmePrincipal--generos {
+    color: #999;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/** Condição especial que vai ser feita para usuários mobile **/
+
+@media (max-width: 760px) {
+    .filmePrincipal{
+        height: 90vh;
+    }
+    .filmePrincipal--nome{
+        font-size: 40px;
+    }
+    .filmePrincipal--informacao{
+        font-size: 16px;
+    }
+    .filmePrincipal--sinopse{
+        margin-right: 30px;
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .filmePrincipal--generos{
+        font-size: 14px;
+    }
+    .filmePrincipal--botaoAssistir,
+    .filmePrincipal--botaoGostei,
+    .filmePrincipal--botaoLista,
+    .filmePrincipal--botaoNaoGostei{
+        font-size: 16px;
+    }
+}

@@ -28,15 +28,3 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.telaLogin--backgroundImage{
-    background-image: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png');
-    width: 100vw;
-    height: 100vh;
-    object-fit: fill;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center, center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

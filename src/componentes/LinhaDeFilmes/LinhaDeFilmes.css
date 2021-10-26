@@ -1,0 +1,60 @@
+.linhaDeFilmes {
+    margin-bottom: 30px;
+}
+.linhaDeFilmes h2 {
+    margin: 0px 0px 0px 30px;
+}
+.linhaDeFilmes--areaDaLista {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+.linhaDeFilmes--filmes {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+.linhaDeFilmes--filmes img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+}
+.linhaDeFilmes--filmes img:hover {
+    transform: scale(1);
+}
+.linhaDeFilmes--esquerda,
+.linhaDeFilmes--direita {
+    position: absolute;
+    height: 225px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+.linhaDeFilmes--esquerda {
+    left: 0;
+}
+.linhaDeFilmes--direita {
+    right: 0;
+}
+.linhaDeFilmes:hover .linhaDeFilmes--esquerda,
+.linhaDeFilmes:hover .linhaDeFilmes--direita {
+    opacity: 1;
+}
+.linhaDeFilmes--lista {
+    transition: all ease 0.5s;
+}
+
+/** Condição especial que vai ser feita para usuários mobile **/
+
+@media (max-width: 760px) {
+    .linhaDeFilmes--esquerda,
+    .linhaDeFilmes--direita{
+        opacity: 1;
+    }
+}

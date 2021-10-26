@@ -1,0 +1,33 @@
+header {
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    background-color: transparent;
+    transition: all ease 0.5s;
+}
+header.topoPreto{
+    background-color: #141414;
+}
+.topoPagina--logo {
+    height: 25px;
+}
+.topoPagina--logo--maior{
+    height: 70px;
+    margin-top: 40px;
+}
+.topoPagina--logo img {
+    height: 100%;
+}
+.topoPagina--usuario{
+    height: 45px;
+}
+.topoPagina--usuario img {
+    height: 100%;
+}
