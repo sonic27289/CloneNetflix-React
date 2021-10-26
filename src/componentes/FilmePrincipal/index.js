@@ -39,10 +39,10 @@ export default function FilmePrincipal({filme}) {
                         </div>
                         <div className="filmePrincipal--sinopse">{sinopse}</div>
                             <div className="filmePrincipal--botoes">
-                                <a href={`/assistir/${filme.id}`} className="filmePrincipal--botaoAssistir"> ▶  Assistir</a>
-                                <a href={`/lista/adicionar/${filme.id}`} className="filmePrincipal--botaoLista"><AddIcon style={{fontSize: 20}}/></a>
-                                <a href={`/favoritos/adicionar/${filme.id}`} className="filmePrincipal--botaoGostei"><ThumbUpIcon style={{fontSize: 20}}/></a>
-                                <a href={`/naorecomendar/adicionar/${filme.id}`} className="filmePrincipal--botaoNaoGostei"><ThumbDownIcon style={{fontSize: 20}}/></a>
+                                <a href="/" className="filmePrincipal--botaoAssistir"> ▶  Assistir</a>
+                                <a href="/" className="filmePrincipal--botaoLista"><AddIcon style={{fontSize: 20}}/></a>
+                                <a href="/" className="filmePrincipal--botaoGostei"><ThumbUpIcon style={{fontSize: 20}}/></a>
+                                <a href="/" className="filmePrincipal--botaoNaoGostei"><ThumbDownIcon style={{fontSize: 20}}/></a>
                             </div>
                         <div className="filmePrincipal--generos"><strong>Gêneros: </strong>{generos.join(', ')}</div>
                     </div>    
