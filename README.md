@@ -30,6 +30,7 @@
  - Efeito login: Manipulando o background da página conforme você esta logado ou não.
  - Botão Inválido: Manipulando o botão deixando ele clicável ou não, conforme as exigências.
  - Sempre logado: Foi usado armazenamento local para sempre deixar sua conta logada quando você loga no site, assim como se é utilizado no site original.
+ - Responsividade Mobile: Para os usuários Mobile foram feitos ajustes para a melhor exibição e utiilização do site.
  
 Como usar:
 
